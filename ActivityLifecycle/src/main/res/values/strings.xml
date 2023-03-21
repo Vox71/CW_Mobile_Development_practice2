@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lesson2</string>
+    <string name="button">Start new activity</string>
+</resources>

@@ -13,6 +13,8 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Lesson2"
-include ':app'
+include ':ActivityLifecycle'
 include ':intentfilter'
 include ':notificationapp'
+include ':toastapp'
+include ':dialog'
