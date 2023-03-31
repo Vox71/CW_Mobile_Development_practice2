@@ -1,4 +1,4 @@
-package ru.mirea.volkov.dialog;
+package ru.mirea.volkovma.toastapp;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("ru.mirea.volkov.dialog", appContext.getPackageName());
+        assertEquals("ru.mirea.volkovma.toastapp", appContext.getPackageName());
     }
 }

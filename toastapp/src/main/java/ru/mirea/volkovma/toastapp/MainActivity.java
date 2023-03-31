@@ -1,4 +1,4 @@
-package com.example.toastapp;
+package ru.mirea.volkovma.toastapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Dialog</string>
-    <string name="hello">hellp</string>
+    <string name="app_name">dialog</string>
+    <string name="show_dialog">Show dialog</string>
+    <string name="time">Time</string>
+    <string name="progress">Progress</string>
+    <string name="date">Date</string>
 </resources>

@@ -16,5 +16,5 @@ rootProject.name = "Lesson2"
 include ':ActivityLifecycle'
 include ':intentfilter'
 include ':notificationapp'
-include ':toastapp'
 include ':dialog'
+include ':toastapp'

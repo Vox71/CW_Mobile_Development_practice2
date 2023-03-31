@@ -1,4 +1,4 @@
-package ru.mirea.volkov.dialog;
+package ru.mirea.volkovma.dialog;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         btPickDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ru.mirea.volkov.dialog.MyDateDialogFragment mDatePickerDialogFragment;
-                mDatePickerDialogFragment = new ru.mirea.volkov.dialog.MyDateDialogFragment();
+                ru.mirea.volkovma.dialog.MyDateDialogFragment mDatePickerDialogFragment;
+                mDatePickerDialogFragment = new ru.mirea.volkovma.dialog.MyDateDialogFragment();
                 mDatePickerDialogFragment.show(getSupportFragmentManager(), "DATE PICK");
                 Snackbar.make(v, "Date dialog", Snackbar.LENGTH_LONG)
                         .show();
@@ -59,10 +59,10 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                         .show();
             }
         });
-        }
+    }
 
-@Override
-public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+    @Override
+    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
         Calendar mCalendar = Calendar.getInstance();
         mCalendar.set(Calendar.YEAR, year);
         mCalendar.set(Calendar.MONTH, month);

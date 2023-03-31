@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.toastapp'
+    namespace 'ru.mirea.volkovma.toastapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.toastapp"
+        applicationId "ru.mirea.volkovma.toastapp"
         minSdk 24
         targetSdk 33
         versionCode 1

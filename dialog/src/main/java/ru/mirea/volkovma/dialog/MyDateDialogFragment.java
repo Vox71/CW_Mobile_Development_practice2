@@ -1,4 +1,4 @@
-package ru.mirea.volkov.dialog;
+package ru.mirea.volkovma.dialog;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
